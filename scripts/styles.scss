@@ -1,0 +1,43 @@
+$midnight: #272932;
+$ocean: #4D7EA8;
+$battleship: #828489;
+$mauve: #9E90A2;
+$lightsteel: #B6C2D9;
+
+html body {
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+div.mainBody {
+  color: $lightsteel;
+  background-color: $midnight;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  div.topNav {
+    padding: 20px 30px;
+    font-size: 5em;
+    font-weight: 800;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    div.navLink {
+      display: flex;
+      flex: 1;
+    }
+  }
+  div.contentArea {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

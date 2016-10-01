@@ -28,7 +28,7 @@ export default class App extends Component {
             <div className={styles.middleContent}>
             </div>
             <div className={styles.rightContent}>
-              <a className={styles.sideLink} href='jeffrey_klein_resume.pdf' target='_blank'>
+              <a className={styles.sideLink} href='jeff_klein_resume.pdf' target='_blank'>
                 Resume
               </a>
               <a className={styles.sideLink} href='http://www.linkedin.com/pub/jeffrey-klein/69/190/35a' target='_blank'>
